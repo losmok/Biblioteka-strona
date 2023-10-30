@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+}
+
+.baner {
+    text-align: center;
+    font-weight: 700;
+}
+
+.main { 
+    border: 1px solid black;
+    height: 800px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    text-align: center;
+} 
+
+.naglowek { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    border-radius: 9px 9px 0px 0px;
+    
+}
+
+.tabelka {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: lightgrey;
+
+}
+
+.tabela1,.tabela2, .tabela3 {
+    padding: 10px 0px;
+    width: 33%;
+}
+
+
+
+
+.tabelka:hover {
+    background-color: white;
+    transition: 0.5s;
+}
+
+.wpis {
+    text-align: left;
+    padding: 20px;
+}
+
+.autor, .tytul, .date {
+    margin: 8px;
+    height: 40px;
+    width: 350px;
+    color: lightgray;
+    border-radius: 12px;
+    border: 1px solid lightgrey;
+    padding-left: 10px;
+}
+
+.dodaj {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: maroon;
+    cursor: pointer;
+}
+
+.dodaj:hover {
+    opacity: 50%;
+    transition: 0.3s;
+    color: black;
+}
+
+.btn {
+    border: none;
+    color: black;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
